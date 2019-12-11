@@ -12,7 +12,8 @@ package com.example.spring1.domain;
 public class Star {
     private String name;
     private Integer id; 
-    public Star(int id) {
+    public Star(int id,String name) {
+        this.name = name;
         this.id=id;
     }
 

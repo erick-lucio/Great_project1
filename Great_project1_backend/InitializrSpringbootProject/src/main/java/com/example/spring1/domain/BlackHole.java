@@ -12,7 +12,8 @@ package com.example.spring1.domain;
 public class BlackHole {
     private String name;
     private Integer id;   
-    public BlackHole(int id) {
+    public BlackHole(int id,String name) {
+        this.name = name;
         this.id=id;
     }
 

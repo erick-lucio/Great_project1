@@ -16,7 +16,8 @@ public class Universe {
     private Integer id; 
     private List<Galaxy> galaxyList ;
     
-    public Universe(int id) {
+    public Universe(int id,String name) {
+        this.name = name;
         this.id=id;
         galaxyList = new ArrayList();
     }

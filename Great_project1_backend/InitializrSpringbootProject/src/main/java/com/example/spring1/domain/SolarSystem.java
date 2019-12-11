@@ -18,7 +18,8 @@ public class SolarSystem {
     private List<Planet> planetList;
     private List<Star> starList;
     
-    public SolarSystem(int id) {
+    public SolarSystem(int id,String name) {
+        this.name = name;
         this.id=id;
         blackHoleList = new ArrayList();
         planetList = new ArrayList();
