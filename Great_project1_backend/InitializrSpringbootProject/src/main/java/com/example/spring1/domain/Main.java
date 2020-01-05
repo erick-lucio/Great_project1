@@ -6,11 +6,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Random;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-
+//@Entity
 public class Main implements Serializable{
    private static final long SerialVersionUID = 1L; 
-   private static Integer id;   
+   
+   //@Id
+   //@GeneratedValue(strategy = GenerationType.IDENTITY)
+   int mabdsuzsim;
+   private static Integer id;  
+   
    private static int universesCreated = 1;
    private static int galaxiesCreated = 1;  
    private static int solarSystemsCreated = 1;
