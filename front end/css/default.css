@@ -65,11 +65,14 @@ a:active{
 
 
 .body {
-  background-image: url(../imgs/background-image6.jpg);
-  margin: 10px 0 0 0;
-  padding-top: 80px;
-  color: black;
+  //background-image: url(../imgs/background-image6.jpg);
+    background-image: linear-gradient(to bottom ,#abbcb7, #1df0ad);
+    margin: 10px 0 0 0;
+    padding-top: 80px;
+    //color: blue;
     
+    
+
           
 }
 
@@ -133,6 +136,7 @@ head {
 
 .facebook-logo {
    border-radius: 25px;
+width: auto;    
 }
 
 .twitter-logo {
