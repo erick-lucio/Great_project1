@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .w3-sidebar {
@@ -49,6 +50,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="second-main">    
 <div class="w3-main" style="margin-left:250px">
 
   <div class="w3-row w3-padding-64">
@@ -109,9 +111,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     </div>
   </footer>
 
-<!-- END MAIN -->
+<!-- END MAIN -->   
 </div>
-
+</div>
 <script>
 // Get the Sidebar
 var mySidebar = document.getElementById("mySidebar");
@@ -135,6 +137,10 @@ function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
 }
+//$( "div" ).html( "<b>Wow!</b> Such excitement..." );    
+$( ".w3-main" )
+  .append( document.createTextNode( "!!!" ) )
+  .css( "color", "red" );    
 </script>
 
 </body>
