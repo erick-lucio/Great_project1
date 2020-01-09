@@ -21,11 +21,16 @@ function verifylogin(){
 
 ////////////////
 
+
 function getrequest(){
-$.get( "ajax/test.html", function( data ) {
-  
-  alert( "Load was performed." );
-});
-    return data;
+
+    
+    $.get( "http://localhost:8080/erick", function(data) {
+         console.log(data);
+       var jsonstring= JSON.stringify(data);
+        console.log(jsonstring);
+    });
+
+    
 }
 
