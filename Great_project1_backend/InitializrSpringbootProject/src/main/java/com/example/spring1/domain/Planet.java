@@ -13,7 +13,7 @@ public class Planet {
     private String name;
     private Integer id; 
     public Planet(int id,String name) {
-        this.name = name;
+        this.name = "Planet "+name;
         this.id=id;
     }
 

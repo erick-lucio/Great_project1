@@ -13,7 +13,7 @@ public class Star {
     private String name;
     private Integer id; 
     public Star(int id,String name) {
-        this.name = name;
+        this.name = "Star "+name;
         this.id=id;
     }
 

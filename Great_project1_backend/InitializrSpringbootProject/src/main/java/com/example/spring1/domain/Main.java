@@ -1,6 +1,7 @@
 
 package com.example.spring1.domain;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import net.minidev.json.writer.ArraysMapper;
 
 //@Entity
 public class Main implements Serializable{
@@ -23,16 +25,21 @@ public class Main implements Serializable{
    private static int universesCreated = 1;
    private static int galaxiesCreated = 1;  
    private static int solarSystemsCreated = 1;
-   private static int planetsCreated = 1;
-   private static int starsCreated = 1;  
+   private static int planetsCreated = 2;
+   private static int starsCreated = 2;  
    private static int blackHolesCreated = 1;
    Random randomNumber;
    private List<Universe> universeList;
 
     public Main() {
+        
         Names nameClass = new Names();
         nameClass.createLists();
         Main.id = 0;
+        //parte de teste
+
+
+        
         
     }
 

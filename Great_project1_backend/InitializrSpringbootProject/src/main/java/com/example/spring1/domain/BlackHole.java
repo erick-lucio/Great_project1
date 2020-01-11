@@ -13,7 +13,7 @@ public class BlackHole {
     private String name;
     private Integer id;   
     public BlackHole(int id,String name) {
-        this.name = name;
+        this.name = "BlackHole "+name;
         this.id=id;
     }
 

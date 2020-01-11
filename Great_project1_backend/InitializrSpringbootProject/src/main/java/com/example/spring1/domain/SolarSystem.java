@@ -19,7 +19,7 @@ public class SolarSystem {
     private List<Star> starList;
     
     public SolarSystem(int id,String name) {
-        this.name = name;
+        this.name = "SolarSystem "+name;
         this.id=id;
         blackHoleList = new ArrayList();
         planetList = new ArrayList();

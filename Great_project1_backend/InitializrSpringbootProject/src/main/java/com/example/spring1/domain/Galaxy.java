@@ -18,7 +18,7 @@ public class Galaxy {
     private List<SolarSystem> solarSystemList;  
     
     public Galaxy(int id,String name) {
-        this.name = name;
+        this.name = "Galaxy "+name;
         this.id=id;
         solarSystemList = new ArrayList();     
     }
