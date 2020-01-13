@@ -26,11 +26,25 @@ function getrequest(){
 
     
     $.get( "http://localhost:8080/erick", function(data) {
-         console.log(data);
-       var jsonstring= JSON.stringify(data);
-        console.log(jsonstring);
+        
+        let obj = JSON.parse(data);
+        console.log(obj);
+       
+        //console.log(obj['name']);
+        dealwithjson(obj);
     });
 
     
 }
 
+function dealwithjson(jsonObj){
+    var countKey = Object.keys(jsonObj).length;
+    console.log( countKey) ;
+     //console.log(jsonObj["name"]+" id: "+jsonObj['id']);
+     //console.log(jsonObj["galaxyList"][0]["solarSystem"][0]["planet"][0]["name"]);
+    //console.log(jsonObj["galaxyList"][0]["solarSystem"][0]["star"][0]["name"]);
+    //console.log(jsonObj["galaxyList"][0]["solarSystem"][0]["blackHole"][0]["name"]);
+     //$( ".second-main" )
+    // .append( document.createTextNode( "!!!" ) )
+    // .css( "color", "red" );  
+}
