@@ -22,7 +22,7 @@ public class ErickClass {
         //
                 ObjectMapper maper = new ObjectMapper();
         try{
-                jsonstring = maper.writeValueAsString(main.getUniverseList().get(0));
+                jsonstring = maper.writeValueAsString(main.getUniverseList());
                 System.out.println(jsonstring);   
         }catch(Exception e){
             jsonstring = "Error try again later";

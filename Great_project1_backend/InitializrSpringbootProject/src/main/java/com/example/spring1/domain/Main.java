@@ -22,9 +22,9 @@ public class Main implements Serializable{
    int mabdsuzsim;
    private static Integer id;  
    
-   private static int universesCreated = 1;
-   private static int galaxiesCreated = 1;  
-   private static int solarSystemsCreated = 1;
+   private static int universesCreated = 3;
+   private static int galaxiesCreated = 3;  
+   private static int solarSystemsCreated = 3;
    private static int planetsCreated = 2;
    private static int starsCreated = 2;  
    private static int blackHolesCreated = 1;
@@ -36,6 +36,7 @@ public class Main implements Serializable{
         Names nameClass = new Names();
         nameClass.createLists();
         Main.id = 0;
+        this.universeList = new ArrayList();   
         //parte de teste
 
 
@@ -56,9 +57,12 @@ public class Main implements Serializable{
     }
     public void createAllInstances(){
         Names nameClass = new Names();
+       
         
-        universeList = new ArrayList();
-        for(int universes = 0;universes<universesCreated;universes++){
+         
+       
+        
+        for(int universes = 0;universes < universesCreated;universes++){
         Universe universe = new Universe(incrementAndAddId(),nameClass.generateNames());
             for(int galaxys = 0;galaxys < galaxiesCreated ;galaxys++){
             Galaxy galaxy = new Galaxy(incrementAndAddId(),nameClass.generateNames());
@@ -83,8 +87,14 @@ public class Main implements Serializable{
 
             universe.addToGalaxyList(galaxy);
             }
-        universeList.add(universe);
+        //this.universeList.add(universe);
+        addToUniverseList(universe);
+       
         }
+    }
+    public void addToUniverseList(Universe obj){
+        this.universeList.add(obj);
+        
     }
     int incrementAndAddId(){
         Main.id++;
