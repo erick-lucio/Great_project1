@@ -138,3 +138,12 @@ a:active{
   cursor: pointer; 
 }
 
+
+.w3-topp {
+    padding-top: 500px;
+    margin-top: 500px;
+    clear: both;
+    margin-bottom: 500px;
+    padding-bottom: 100px;
+    
+}

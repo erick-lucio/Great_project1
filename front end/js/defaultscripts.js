@@ -45,7 +45,7 @@ function dealwithjson(jsonObj){
     //console.log(jsonObj["galaxyList"][0]["solarSystem"][0]["star"][0]["name"]);
     //console.log(jsonObj["galaxyList"][0]["solarSystem"][0]["blackHole"][0]["name"]);
     
-    console.log(jsonObj.length);
+    //console.log(jsonObj.length);
     for(let u=0;u<jsonObj.length;u++){       
         console.log(jsonObj[u].name);
         for(let i = 0;i<jsonObj[u].galaxyList.length;i++){
