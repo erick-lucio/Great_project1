@@ -5,7 +5,7 @@ import MainDiv from './MainDiv';
 import Footer from './Footer';
 import LeftMenu from './LeftMenu';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './LayoutTemplate.css';
 export default class App extends React.Component{
@@ -14,8 +14,9 @@ export default class App extends React.Component{
       <div className="MainContainer">
         <Header />
         <MainDiv />
-        <LeftMenu /> 
         <Footer />
+        <LeftMenu /> 
+        
       </div>
     );
   }

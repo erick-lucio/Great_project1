@@ -1,9 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+    ul, ol, li {
+        list-style: none;
+    }
 .MainDiv{
     background-color: chartreuse;
     position: relative;
     margin: 70px 0 60px 0;
     height: 100%;
-    padding: 0 20px 0 20px;
+    content: "";
+    display: block; 
+    clear: both;
+  
+  
    
 }
 
@@ -17,28 +32,30 @@
   
 }
 .FooterDiv{
+    
     background-color: darkblue;
-    position: absolute;;
+    position: relative;
+    margin-bottom: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
-  
+    margin-top: auto;
+    text-align: center;    
+    clear: both;
+    height: 60px;
     
 }
 .LeftDiv{
-    background-color: brown;
-   
+    background-color: brown;   
     float: left;
     width: 30%;
     height: 100%;
     
+    
 }
 .RightDiv{
     background-color: orange;
-   
     float: right;
     width: 70%;
-    height: 100%;
     text-align: center;
 }
 .LeftMenu{
@@ -56,7 +73,18 @@
 .MainContainer{
     min-height: 100%;
     
+    
 }
 .imgName{
     text-align: center;
+}
+.UpRightDiv{
+    padding: 50px 50px 50px 50px;
+    margin: 15px 15px 15px 15px;
+    background-color: aqua;
+}
+.UpLeftDiv{
+    padding: 50px 50px 50px 50px;
+    margin: 15px 15px 15px 15px;
+    background-color:darkmagenta;
 }
