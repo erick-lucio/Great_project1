@@ -14,7 +14,7 @@ export default class App extends React.Component{
       <div className="MainContainer">
         <Header />
         <MainDiv />
-        <Footer />
+        <Footer /> 
         <LeftMenu /> 
         
       </div>

@@ -35,10 +35,10 @@ body {
     
     background-color: darkblue;
     position: relative;
-    margin-bottom: 0;
+    margin-top: 50px;
     bottom: 0;
     width: 100%;
-    margin-top: auto;
+    
     text-align: center;    
     clear: both;
     height: 60px;
@@ -48,7 +48,7 @@ body {
     background-color: brown;   
     float: left;
     width: 30%;
-    height: 100%;
+   
     
     
 }
@@ -77,6 +77,21 @@ body {
 }
 .imgName{
     text-align: center;
+    width:100%;
+    position: relative;
+}
+.imgME{
+width: 100%;
+}
+.matrixicon{
+    width: 25px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+.myName{
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
 }
 .UpRightDiv{
     padding: 50px 50px 50px 50px;
@@ -87,4 +102,31 @@ body {
     padding: 50px 50px 50px 50px;
     margin: 15px 15px 15px 15px;
     background-color:darkmagenta;
+}
+.innerLeftDiv{
+    
+    margin: 15px 15px 15px 15px;
+    background-color: green;
+    text-align: center;
+    align-items: center;
+}
+.skillDiv{
+ border-radius: 5px;
+ list-style: circle;
+ background-color: aquamarine;
+}
+.progressSkills{
+    width: 70%;
+    background-color: whitesmoke;
+    text-align: center;
+   
+}
+.progressLanguages{
+    width: 70%;
+    background-color: whitesmoke;
+    text-align: center;
+    
+}
+.languagesDiv{
+    background-color: burlywood;
 }
