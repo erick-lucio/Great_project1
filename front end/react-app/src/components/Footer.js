@@ -1,12 +1,11 @@
 import React from 'react';
 
-import './LayoutTemplate.css';
 
 export default class Footer extends React.Component{
     render(){
         return(
-            <div className="FooterDiv">
-                <p>footer</p>
+            <div className="w3-container FooterDiv">
+                <p>Made by Erick Lucio <a href="#">A</a></p>
             </div>
         );
     }

@@ -1,15 +1,13 @@
 import React from 'react';
 
+import UpRightDiv from './UpRightDiv';
+import UpLeftDiv from './UpLeftDiv';
 export default class RightDiv extends React.Component{
     render(){
         return(
-            <div className="RightDiv">
-                <div className="UpRightDiv">
-                    <p>uprightdiv</p>
-                </div>
-                <div className="UpLeftDiv">
-                    <p>upleftdiv</p>
-                </div>
+            <div className="w3-container RightDiv">
+                <UpRightDiv/>
+                <UpLeftDiv/>
   
             </div>
         );

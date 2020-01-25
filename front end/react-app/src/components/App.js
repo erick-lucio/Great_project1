@@ -5,17 +5,28 @@ import MainDiv from './MainDiv';
 import Footer from './Footer';
 import LeftMenu from './LeftMenu';
 
+import ProgressBar from './ProgressBar';
+
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './LayoutTemplate.css';
+import '../css/defaultcss.css';
+import '../css/LayoutTemplate.css';
+
 export default class App extends React.Component{
   render(){
     return(
-      <div className="MainContainer">
+      <div >
         <Header />
+        <div className="w3-container">
+        
         <MainDiv />
-        <Footer /> 
+        
         <LeftMenu /> 
+
+
+        </div>
+        
+        <Footer /> 
         
       </div>
     );

@@ -29,7 +29,9 @@ body {
     height: 60px;
     top: 0;
     text-align: center;
-  
+    margin-left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 .FooterDiv{
     
@@ -37,12 +39,12 @@ body {
     position: relative;
     margin-top: 50px;
     bottom: 0;
-    width: 100%;
-    
+    width: 100%;    
     text-align: center;    
     clear: both;
     height: 60px;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 .LeftDiv{
     background-color: brown;   
@@ -119,7 +121,8 @@ width: 100%;
     width: 70%;
     background-color: whitesmoke;
     text-align: center;
-   
+    border:10px;
+    
 }
 .progressLanguages{
     width: 70%;
@@ -130,3 +133,6 @@ width: 100%;
 .languagesDiv{
     background-color: burlywood;
 }
+
+
+  

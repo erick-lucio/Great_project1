@@ -6,12 +6,11 @@ import LeftMenu from './LeftMenu';
 import Footer from './Footer';
 
 
-import './LayoutTemplate.css';
 
 export default class MainDiv extends React.Component{
     render(){
         return(
-            <div className="MainDiv"> 
+            <div className="w3-container MainDiv"> 
                 <LeftDiv />
                 <RightDiv />
                 
