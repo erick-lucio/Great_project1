@@ -33,6 +33,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
+#universelist{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    align-items: center;
+}
 .FooterDiv{
     
     background-color: darkblue;
