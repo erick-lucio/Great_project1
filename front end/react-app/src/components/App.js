@@ -11,6 +11,7 @@ import ProgressBar from './ProgressBar';
 
 import '../css/defaultcss.css';
 import '../css/LayoutTemplate.css';
+import ApiCall from './ApiCall';
 
 export default class App extends React.Component{
   render(){
@@ -25,7 +26,7 @@ export default class App extends React.Component{
 
 
         </div>
-        
+        <ApiCall/>
         <Footer /> 
         
       </div>
