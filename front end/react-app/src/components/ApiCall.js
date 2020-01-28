@@ -27,7 +27,7 @@ export default class ApiCall extends React.Component {
       //percorre todo o json recebido
     render(){
       var dados = this.state.items;
-      console.log(dados);
+      //console.log(dados);
       /*
       for(let u=0;u<this.state.items.length;u++){         
         console.log(this.state.items[u].name);

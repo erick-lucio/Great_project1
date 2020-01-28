@@ -11,8 +11,8 @@ import ProgressBar from './ProgressBar';
 
 import '../css/defaultcss.css';
 import '../css/LayoutTemplate.css';
-import ApiCall from './ApiCall';
 
+import SecondDiv from './SecondDiv';
 export default class App extends React.Component{
   render(){
     return(
@@ -23,10 +23,10 @@ export default class App extends React.Component{
         <MainDiv />
         
         <LeftMenu /> 
+        <SecondDiv/>
+        
 
-
-        </div>
-        <ApiCall/>
+        </div>        
         <Footer /> 
         
       </div>

@@ -1,11 +1,46 @@
 import React from 'react';
 
+import calendarImg from '../imgs/calendar.png';
+import homeImg from '../imgs/home.png';
+import languagesImg from '../imgs/languages.png';
+
+import mailImg from '../imgs/mail.png';
+import telefoneImg from '../imgs/telefone.png';
+import diplomaImg from '../imgs/diploma.png';
+import school_diplomaImg from '../imgs/school_diploma.png';
+
+
+
 export default class UpLeftDiv extends React.Component{
     render(){
         return(
             <div className="w3-container UpLeftDiv"  >
-                <h1>Courses</h1>
-                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                <h1 className="courseTitleTag">Courses</h1>
+                <div className="w3-container everycourse">
+                    <h3 className="w3-container eachCourseTitle">Computer Science</h3>
+                    <p className="w3-container dateCourse"><img src={calendarImg} alt="" className="Imgcalendar" ></img>2017 until now</p>
+                    <p className="w3-container CourseLevel"><img src={diplomaImg}alt="" className="Imgdiploma"></img>Bachelor Degree</p>
+                    <p className="w3-container Instituitionname"><img src={school_diplomaImg} alt="" className="ImgSchool_diploma"></img>Instituition:<a href="https://www.pitagoras.com.br/" target="_blank">Pitagoras</a> </p>
+                </div>
+                <div className="w3-container everycourse">
+                    <h3 className="w3-container eachCourseTitle">Data Analist</h3>
+                    <p className="w3-container dateCourse"><img src={calendarImg} alt="" className="Imgcalendar" ></img>2017 until now</p>
+                    <p className="w3-container CourseLevel"><img src={diplomaImg}alt="" className="Imgdiploma"></img>Bachelor Degree</p>
+                    <p className="w3-container Instituitionname"><img src={school_diplomaImg} alt="" className="ImgSchool_diploma"></img>Instituition:<a href="https://www.pitagoras.com.br/" target="_blank">Pitagoras</a> </p>
+                </div>
+                <div className="w3-container everycourse">
+                    <h3 className="w3-container eachCourseTitle">DBA</h3>
+                    <p className="w3-container dateCourse"><img src={calendarImg} alt="" className="Imgcalendar" ></img>2017 until now</p>
+                    <p className="w3-container CourseLevel"><img src={diplomaImg}alt="" className="Imgdiploma"></img>Bachelor Degree</p>
+                    <p className="w3-container Instituitionname"><img src={school_diplomaImg} alt="" className="ImgSchool_diploma"></img>Instituition:<a href="https://www.pitagoras.com.br/" target="_blank">Pitagoras</a> </p>
+                </div>
+                <div className="w3-container everycourse">
+                    <h3 className="w3-container eachCourseTitle">Back-END</h3>
+                    <p className="w3-container dateCourse"><img src={calendarImg} alt="" className="Imgcalendar" ></img>2017 until now</p>
+                    <p className="w3-container CourseLevel"><img src={diplomaImg}alt="" className="Imgdiploma"></img>Bachelor Degree</p>
+                    <p className="w3-container Instituitionname"><img src={school_diplomaImg} alt="" className="ImgSchool_diploma"></img>Instituition:<a href="https://www.pitagoras.com.br/" target="_blank">Pitagoras</a> </p>    
+                </div>
+              
             </div>
         );
     }

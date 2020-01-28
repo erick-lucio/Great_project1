@@ -86,9 +86,13 @@ body {
     text-align: center;
     width:100%;
     position: relative;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 .imgME{
-width: 100%;
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 .matrixicon{
     width: 25px;
@@ -97,8 +101,15 @@ width: 100%;
 }
 .myName{
     position: absolute;
-    bottom: 5%;
-    left: 30%;
+    bottom: 0%;
+    left: 0;
+    background-color: brown;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 80%;
 }
 .UpRightDiv{
     padding: 50px 50px 50px 50px;
@@ -107,7 +118,7 @@ width: 100%;
 }
 .UpLeftDiv{
     padding: 50px 50px 50px 50px;
-    margin: 15px 15px 15px 15px;
+    margin: 0px 15px 15px 15px;
     background-color:darkmagenta;
 }
 .innerLeftDiv{
@@ -121,6 +132,10 @@ width: 100%;
  border-radius: 5px;
  list-style: circle;
  background-color: aquamarine;
+ border-radius: 15px;
+ border-style: solid;
+ border-width: 2px;
+ border-color: yellow;
 }
 .progressSkills{
     width: 70%;
@@ -128,16 +143,170 @@ width: 100%;
     text-align: center;
     border:10px;
     
+    
 }
 .progressLanguages{
     width: 70%;
     background-color: whitesmoke;
     text-align: center;
     
+    
 }
 .languagesDiv{
+    margin: 15px 0 15px 0;
     background-color: burlywood;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
 }
+.canvasDiv{
+    float: right;
+    width: 70%;
+    background-color: lightskyblue;
+}
+.Listarrecebidas{
+    float: left;
+    width: 30%;
+    background-color: lightcoral;
 
-
-  
+}
+.SecondDiv{
+    background-color: lightslategray;
+}  
+.personalInfo{
+    font-size: 15px;
+    margin: 15px 0  15px 0;
+    border-radius: 15px;
+    background-color: lightgrey;
+    border-color: aqua;
+    border-width: 1px;
+    border-style: double;
+}
+.courseTitleTag{
+    font-size: 100px;
+    font-family: cursive;
+    text-align: center;
+}
+.eachCourseTitle{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: crimson;
+    padding: 10px 0 10px 0;
+    
+}
+.dateCourse{
+    font-size: 30px;
+    font-family: cursive;
+    padding: 10px 0 10px 0;
+}
+.CourseLevel{
+    font-size: 30px;
+    font-family: cursive;
+    padding: 10px 0 10px 0;
+}
+.Imgcalendar{
+    width: 8%;
+    height: 7%;
+    margin: 0 10px 0 10px;
+}
+.Imgdiploma{
+    width: 8%;
+    height: 7%;  
+    margin: 0 10px 0 10px; 
+}
+.everycourse{
+    padding: 15px 0 15px 0;
+    text-align: left;
+}
+.Instituitionname{
+    font-size: 30px;
+    font-family: cursive;
+    padding: 10px 0 10px 0;
+}
+.ImgSchool_diploma{
+    width: 8%;
+    height: 7%;  
+    margin: 0 10px 0 10px; 
+}
+.JobImg{
+    width: 10%;
+    height: 10%;  
+    margin: 0 10px 0 0; 
+}
+.Jobtitle{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: crimson;
+    padding: 10px 0 0 0;
+    text-align: left;
+}
+.WorkclassTittle{
+    font-size: 100px;
+    font-family: cursive;
+    text-align: center;
+}
+.jobDescription{
+    font-size: 30px;
+    font-family: cursive;
+    padding: 0 0 10px 0;
+    text-align: left;
+}
+.jobDate{
+    font-size: 30px;
+    font-family: cursive;
+    padding: 10px 0 10px 0;
+    text-align: left;
+}
+.jobdateImg{
+    width: 8%;
+    height: 7%;
+    margin: 0 10px 0 10px;
+}
+.descriptionImg{
+    width: 10%;
+    height: 7%;
+    margin: 0 10px 0 0;
+}
+.EachCourseDiv{
+    padding: 15px 0 15px 0;
+    text-align: left;
+}  
+/*
+Organizar por componente depois
+*/
+.IconImg{
+    width: 10%;
+    height: 7%;
+    margin: 0 15px 0 0; 
+}
+.IconImgG{
+    width: 14%;
+    height: 7%;
+    margin: 0 15px 0 0; 
+}
+.myinfo{
+    padding: 10px 0 10px 0;
+}
+.TodolistDiv{
+    margin: 15px 0 15px 0;
+    background-color: burlywood;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+}
+.Checkbox{
+    transform: scale(1.3);
+    margin-left: 10px;
+}
+.CheckboxName{
+    font-size: 20px;
+    font-family: fantasy;
+   
+}
+.Advise1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
