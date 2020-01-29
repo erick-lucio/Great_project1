@@ -7,12 +7,15 @@ import LeftMenu from './LeftMenu';
 
 import ProgressBar from './ProgressBar';
 
+
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '../css/defaultcss.css';
 import '../css/LayoutTemplate.css';
 
 import SecondDiv from './SecondDiv';
+import CanvasDrawning from './CanvasDrawning';
+
 export default class App extends React.Component{
   render(){
     return(

@@ -56,6 +56,7 @@ export default class LeftDiv extends React.Component{
                          <h1><img alt="" className="IconImgG" src={todolistImg}></img>To Study List</h1>
                          <ul>
                              <p className="CheckboxName">Java<input className="Checkbox" type="checkbox" disabled  checked></input></p>    
+                             <p className="CheckboxName">Git<input className="Checkbox" type="checkbox" disabled  checked></input></p>    
                              <p className="CheckboxName">HTML/HTML5<input className="Checkbox" type="checkbox" disabled  checked></input></p>  
                              <p className="CheckboxName">CSS/CSS3<input className="Checkbox" type="checkbox" disabled  checked></input></p>  
                              <p className="CheckboxName">JS<input className="Checkbox" type="checkbox" disabled  checked></input></p>  
@@ -68,6 +69,8 @@ export default class LeftDiv extends React.Component{
                              <p className="CheckboxName">Data Security<input className="Checkbox" type="checkbox" disabled  ></input></p>  
                              <p className="CheckboxName">Kotlin<input className="Checkbox" type="checkbox" disabled  ></input></p>  
                              <p className="CheckboxName">Node<input className="Checkbox" type="checkbox" disabled  ></input></p>  
+                             <p className="CheckboxName">Python<input className="Checkbox" type="checkbox" disabled  ></input></p>  
+                             <p className="CheckboxName">Docker/Container<input className="Checkbox" type="checkbox" disabled  ></input></p>  
 
                              <h3 className="Advise1">The unchecked boxes means that i am planing to study that .</h3>   
                          </ul>

@@ -22,11 +22,11 @@ public class Main implements Serializable{
    int mabdsuzsim;
    private static Integer id;  
    
-   private static int universesCreated = 3;
-   private static int galaxiesCreated = 3;  
-   private static int solarSystemsCreated = 3;
+   private static int universesCreated = 1;
+   private static int galaxiesCreated = 2;  
+   private static int solarSystemsCreated = 1;
    private static int planetsCreated = 2;
-   private static int starsCreated = 2;  
+   private static int starsCreated = 1;  
    private static int blackHolesCreated = 1;
    Random randomNumber;
    private List<Universe> universeList;

@@ -164,6 +164,15 @@ body {
     float: right;
     width: 70%;
     background-color: lightskyblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.Maincanvas{
+    width: 100%;
+    height: 100%;
+    background-image: url('../imgs/universeBackground.jpg');
+    background-size: 100%;
 }
 .Listarrecebidas{
     float: left;
